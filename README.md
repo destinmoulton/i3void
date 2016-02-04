@@ -1,5 +1,7 @@
 ### A Blank Window
-i3Void is a blank window for padding in the i3 window manager.
+i3void is a blank window for padding in the i3 window manager.
+
+i3void is written in Python.
 
 I have two high resolution monitors and frequently find that I don't want a fullscreen window. I don't like padding the edges of the screen with terminals; they are too busy. i3void provides a blank window that
 
@@ -8,6 +10,7 @@ When you activate the i3void window you are presented with two buttons to Close 
 
 ### Requirements
 
+* Python 2.7
 * PyQt4 Python Library
 
 
