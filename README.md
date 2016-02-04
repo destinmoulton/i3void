@@ -1,5 +1,5 @@
 ### Purpose
----
+***
 i3void is a blank window for padding in the i3 window manager.
 
 i3void is written in Python.
@@ -10,14 +10,14 @@ When you activate the i3void window you are presented with two buttons to Close 
 
 
 ### Requirements
----
+***
 
 * Python 2.7
 * PyQt4 Python Library
 
 
 ### i3 Keyboard Shortcut
----
+***
 
 Add the following to the i3 config file to run i3void.
 
@@ -27,6 +27,6 @@ I have it mapped to $mod+w, but you can change it to your preferred key.
 
 
 ### License
----
+***
 i3void is released under the MIT license.
 
