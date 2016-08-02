@@ -2,7 +2,7 @@
 ***
 i3void creates a blank window for padding around other windows in the i3 window manager.
 
-I have two high resolution monitors and frequently find that I don't want a fullscreen window as they are too wide. I don't like padding the edges of the screen with terminals; my terminal prompt is too busy and provides a visual distraction.
+I have two high resolution monitors and frequently find that I don't want a fullscreen window as they are too wide. I use i3 because it limits visual distraction. As such, I don't like padding the edges of the screen with terminals as my terminal prompt is too visually busy. i3Void is meant to fill a workspace in an unobtrusive way.
 
 
 #### Usage
