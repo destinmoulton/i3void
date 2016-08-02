@@ -1,32 +1,40 @@
-### Purpose
+#### What is i3void?
 ***
-i3void is a blank window for padding in the i3 window manager.
+i3void creates a blank window for padding around other windows in the i3 window manager.
 
-i3void is written in Python.
-
-I have two high resolution monitors and frequently find that I don't want a fullscreen window. I don't like padding the edges of the screen with terminals; they are too busy. i3void provides a blank window that
-
-When you activate the i3void window you are presented with two buttons to Close or change the background color.
+I have two high resolution monitors and frequently find that I don't want a fullscreen window as they are too wide. I don't like padding the edges of the screen with terminals; my terminal prompt is too busy and provides a visual distraction.
 
 
-### Requirements
+#### Usage
+***
+When you activate/mouseover the i3void window you are presented with two buttons: "Color" and "Close".
+
+Clicking on the Color button allows you to change the color of the i3Void window. This is useful for identifying workspaces by color.
+
+You can close i3Void by either clicking the Close button, or using the Ctrl+q keyboard combination.
+
+
+#### Requirements
 ***
 
 * Python 2.7
 * PyQt4 Python Library
 
 
-### i3 Keyboard Shortcut
+#### Start i3 Via Keyboard Shortcut
 ***
 
-Add the following to the i3 config file to run i3void.
+I mapped $mod+w to open a new i3Void window.
+
+Add the following to the i3 config file to start an i3void window.
 
 > bindsym $mod+w exec python <path_to_i3void>/i3void/i3void.py
 
-I have it mapped to $mod+w, but you can change it to your preferred key.
+* Replace <path_to_i3void> with its location.
+* Change $mod+w to your preferred key combo.
 
 
-### License
+#### License
 ***
 i3void is released under the MIT license.
 
