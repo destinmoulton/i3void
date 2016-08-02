@@ -79,5 +79,8 @@ if __name__ == '__main__':
     # Pass any args to the QT application
     app = QtGui.QApplication(sys.argv)
     
+    # Instantiate the i3Void window
     sq = i3Void()
+
+    # Run the app
     sys.exit(app.exec_())
