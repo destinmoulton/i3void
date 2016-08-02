@@ -1,1 +1,1 @@
-from fadingwidget import FadingWidget
+from buttonwidget import ButtonWidget

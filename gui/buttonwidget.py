@@ -1,10 +1,19 @@
+"""A QT widget to create the buttons for the i3Void QT window.
+"""
+
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 
-class FadingWidget(QWidget):
+class ButtonWidget(QWidget):
+    """A QT Widget that:
+         1) Instantiates and Styles the "Close" and "Color" buttons
+         2) Creates a color picker when the Color button is clicked
+    """
 
     def __init__(self, parent=None):
-
+        """Initialize the buttons, their click event handlers, and their position.
+        """
+        
         super(QWidget, self).__init__(parent)
         self._parent = parent
         self._current_color_hex = "#2e2e2e"
@@ -31,6 +40,9 @@ class FadingWidget(QWidget):
         self.repaint()
 
     def showColorPicker(self):
+        """Show the color picker when the Color button is clicked.
+        """
+        
         color = QColor(0,0,0)
         color.setNamedColor(self._current_color_hex)
         selectedColor = QColorDialog.getColor(color)
