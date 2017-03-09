@@ -7,7 +7,9 @@ I have two high resolution monitors and frequently find that I don't want a full
 
 #### Usage
 ***
-When you activate/mouseover the i3void window you are presented with two buttons: "Color" and "Close".
+Two buttons appear when you mouseover or activate the i3void window:
+* Color
+* Close
 
 Clicking on the Color button allows you to change the color of the i3Void window. This is useful for identifying workspaces by color.
 
