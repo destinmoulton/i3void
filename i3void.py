@@ -17,7 +17,7 @@ import sys
 from PyQt4 import QtGui
 from PyQt4 import QtCore
 
-from gui import ButtonWidget
+from gui.buttonwidget import ButtonWidget
 
 class i3Void(QtGui.QMainWindow):
     """Create the QT window application.
