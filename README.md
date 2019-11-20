@@ -26,7 +26,19 @@ You can close i3Void by either clicking the Close button, or using the Ctrl+q ke
 - Python 3
 - PyQt5 Python Library
 
-#### Start i3 Via Keyboard Shortcut
+#### Installation
+
+---
+
+```
+$ git clone https://github.com/destinmoulton/i3void
+$ cd i3void
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install PyQt5
+```
+
+#### Start i3void Via Keyboard Shortcut in i3
 
 ---
 
