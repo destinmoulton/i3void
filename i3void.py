@@ -30,7 +30,8 @@ class i3Void(QMainWindow):
         """Set the parameters for the QT window.
         """
 
-        super(i3Void, self).__init__()
+        #super(i3Void, self).__init__()
+        QMainWindow.__init__(self)
 
         self.setWindowTitle('i3Void')
 

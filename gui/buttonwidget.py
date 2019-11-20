@@ -16,7 +16,7 @@ class ButtonWidget(QWidget):
         """Initialize the buttons, their click event handlers, and their position.
         """
 
-        super(QWidget, self).__init__(parent)
+        QWidget.__init__(self, parent)
         self._parent = parent
         self._current_color_hex = "#2e2e2e"
 

@@ -11,7 +11,7 @@ class ButtonWidget(QWidget):
         """Initialize the buttons, their click event handlers, and their position.
         """
 
-        super(QWidget, self).__init__(parent)
+        QWidget.__init__(self, parent)
         self._parent = parent
         self._current_color_hex = "#2e2e2e"
 
@@ -42,8 +42,8 @@ class ButtonWidget(QWidget):
 
         color = QColor(0, 0, 0)
         color.setNamedColor(self._current_color_hex)
-        selectedColor = QColorDialog.getColor(color)
+        selected_color = QColorDialog.getColor(color)
 
-        if selectedColor.isValid():
-            self._current_color_hex = selectedColor.name()
+        if selected_color.isValid():
+            self._current_color_hex = selected_color.name()
             self._parent.setWindowColor(self._current_color_hex)
